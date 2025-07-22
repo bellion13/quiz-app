@@ -1,23 +1,39 @@
 export const categories = [
-  { id: 1, name: 'HTML', slug: 'html',
-    image: './../src/assets/html.jpg',
-     description: 'Câu hỏi về HTML cơ bản' },
-  { id: 2, name: 'CSS', slug: 'css', 
-    image: './../src/assets/css.jpg',
-    description: 'Kiến thức về CSS' },
-  { id: 3, name: 'JavaScript', slug: 'js', 
-    image: './../src/assets/js.jpg',
-    description: 'JS từ cơ bản đến nâng cao' },
-  { id: 4, name: 'ReactJS', slug: 'reactjs',
-    image: './../src/assets/reactjs.jpg',
-     description: 'Component, Hook, State...' },
+  {
+    id: 1,
+    name: 'HTML',
+    slug: 'html',
+    image: '/assets/html.jpg',
+    description: 'Câu hỏi về HTML cơ bản'
+  },
+  {
+    id: 2, 
+    name: 'CSS', 
+    slug: 'css',
+    image: '/assets/css.jpg',
+    description: 'Kiến thức về CSS'
+  },
+  {
+    id: 3, 
+    name: 'JavaScript', 
+    slug: 'js',
+    image: '/assets/js.jpg',
+    description: 'JS từ cơ bản đến nâng cao'
+  },
+  {
+    id: 4, 
+    name: 'ReactJS', 
+    slug: 'reactjs',
+    image: '/assets/reactjs.jpg',
+    description: 'Component, Hook, State...'
+  },
 ];
 // https://ibb.co/Dhz3VmV
 // https://ibb.co/sJWCm7t9
 // https://ibb.co/FR48wZ3
 // https://ibb.co/XZ1PfPcL
 
- const htmlQuestions = [
+const htmlQuestions = [
   {
     id: 1,
     category: 'html',
@@ -158,7 +174,7 @@ export const categories = [
     options: ['Mở trong cửa sổ mới', 'Tải lại trang', 'Chặn popup', 'Ẩn liên kết'],
     answer: 'Mở trong cửa sổ mới',
   },
-    {
+  {
     id: 21,
     category: 'html',
     question: 'Thẻ nào dùng để nhúng video?',
@@ -1086,7 +1102,7 @@ const jsQuestions = [
   }
 
 ]
-const reactjsQuestions =[
+const reactjsQuestions = [
   {
     id: 1,
     category: 'reactjs',
