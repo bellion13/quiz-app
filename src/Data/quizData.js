@@ -28,10 +28,7 @@ export const categories = [
     description: 'Component, Hook, State...'
   },
 ];
-// https://ibb.co/Dhz3VmV
-// https://ibb.co/sJWCm7t9
-// https://ibb.co/FR48wZ3
-// https://ibb.co/XZ1PfPcL
+
 
 const htmlQuestions = [
   {
