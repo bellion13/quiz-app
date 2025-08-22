@@ -829,7 +829,7 @@ const jsQuestions = [
     category: 'js',
     question: 'Toán tử `...` được gọi là gì?',
     options: ['Rest', 'Spread', 'Both', 'Dot operator'],
-    answer: 'Both',
+    answer: 'Spread',
   },
   {
     id: 13,
