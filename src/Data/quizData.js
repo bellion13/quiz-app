@@ -771,7 +771,7 @@ const jsQuestions = [
   {
     id: 4,
     category: 'js',
-    question: 'Kết quả của `[] + []` là gì?',
+    question: 'Kết quả của `[ ] + [ ]` là gì?',
     options: ['0', 'undefined', '""', 'NaN'],
     answer: '""',
   },
